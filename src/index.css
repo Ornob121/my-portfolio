@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section {
+  @apply py-8 lg:py-24 lg:h-screen flex items-center;
+}
+
+@layer base {
+  body {
+    @apply font-secondary text-lg leading-8 text-white;
+  }
+  .h2 {
+    @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
+  }
+  .h3 {
+    @apply font-primary text-[26px] font-semibold leading-[46px] mb-6;
+  }
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+}
+
+.active {
+  background: linear-gradient(
+    92.23deg,
+    #406aff 21.43%,
+    #3bace2 50.63%,
+    #b936ee 100%,
+    #ff56f6 117%
+  );
+  color: #fff;
+  padding: 1px;
+  border-radius: 100%;
+}
+
+.btn1 {
+  position: relative;
+  background: linear-gradient(
+    92.23deg,
+    #406aff 21.43%,
+    #3bace2 50.63%,
+    #b936ee 100%,
+    #ff56f6 117%
+  );
+  border: 2px solid #00abf0;
+  border-radius: 4px;
+  font-size: 22px;
+  color: #081b29;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 1;
+  padding: 6px 16px;
+}
+
+.btn2 {
+  position: relative;
+  border: 2px solid #00abf0;
+  border-radius: 4px;
+  font-size: 22px;
+  color: #00abf0;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background: transparent;
+  z-index: 1;
+  padding: 6px 16px;
+}
+
+.btn2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(
+    92.23deg,
+    #406aff 21.43%,
+    #3bace2 50.63%,
+    #b936ee 100%,
+    #ff56f6 117%
+  );
+
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #081b29;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+.btn1:hover::before {
+  width: 100%;
+}
+
+.btn1:hover {
+  color: #00abf0;
+  transition: 0.5s;
+}
+
+.btn2:hover::before {
+  width: 100%;
+}
+
+.btn2:hover {
+  color: white;
+  transition: 0.8s;
+}
+
+/* .shape-outer {
+  flex-shrink: 0;
+  height: calc(230px + 4vw);
+  width: calc(230px + 4vw);
+  margin: 25px;
+  background-image: linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
+}
+
+.shape-inner {
+  height: calc(180px + 4vw);
+  width: calc(180px + 4vw);
+  background: url(https://ibb.co/b7HYsXX) no-repeat center;
+  background-size: cover;
+  margin: auto;
+}
+
+.decagon {
+  -webkit-clip-path: polygon(
+    50% 0%,
+    80% 10%,
+    100% 35%,
+    100% 65%,
+    80% 90%,
+    50% 100%,
+    20% 90%,
+    0 65%,
+    0 35%,
+    20% 10%
+  );
+  clip-path: polygon(
+    50% 0%,
+    80% 10%,
+    100% 35%,
+    100% 65%,
+    80% 90%,
+    50% 100%,
+    20% 90%,
+    0 65%,
+    0 35%,
+    20% 10%
+  );
+} */

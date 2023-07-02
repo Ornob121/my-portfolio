@@ -1,0 +1,56 @@
+[
+  {
+    "projectTitle": "Scoula",
+    "projectDetails": "A fully functional e-learning website. Here three user system is implemented admin, teacher and student teacher can add his/her own class and delete it admin has the power to approve the class and student can buy the approved class trough website.",
+    "projectImage": "https://i.ibb.co/2tgGKZT/scuola.png",
+    "liveSite": "https://scuola-74446.web.app/",
+    "clientCode": "https://github.com/Ornob121/scoula-client-side",
+    "serverCode": "https://github.com/Ornob121/scoula-server-side",
+    "technologies": "React, Node.js, ExpressJS, Firebase, MongoDB, React Router, JWT, TanStack Query, Axios"
+  },
+  {
+    "projectTitle": "Arashi Figures",
+    "projectDetails": "This is a custom figure website where you can find japanese anime characters custom figures and buy them.",
+    "projectImage": "https://i.ibb.co/RPwLS05/arashi-figures-web-app.png",
+    "liveSite": "https://arashi-figures.web.app/",
+    "clientCode": "https://github.com/Ornob121/arashi-figures-client-side",
+    "serverCode": "https://github.com/Ornob121/arashi-figures-server-side",
+    "technologies": "HTML, CSS, Firebase, React, Node.js, Express, MongoDB"
+  },
+  {
+    "projectTitle": "Shokusei",
+    "projectDetails": "This is a cooking website here you will find top food recipes from top chefs and you will be able to cook the food if you want following the recipes.",
+    "projectImage": "https://i.ibb.co/025fLdt/shokusei-8ed6e-web-app.png",
+    "liveSite": "https://shokusei-8ed6e.web.app/",
+    "clientCode": "https://github.com/Ornob121/Shokusei-client-side",
+    "serverCode": "https://github.com/Ornob121/shokusei-server-side",
+    "technologies": "HTML, CSS, JavaScript, ReactJS, React Router"
+  },
+  {
+    "projectTitle": "Job Hunt",
+    "projectDetails": "An application where you will be able to find the job of your dream here all the top companies job are listed.",
+    "projectImage": "https://i.ibb.co/KVKgVwq/radiant-pithivier-f83b01-netlify-app.png",
+    "liveSite": "https://radiant-pithivier-f83b01.netlify.app/",
+    "clientCode": "https://github.com/Ornob121/jobHunt",
+    "serverCode": "",
+    "technologies": "HTML, CSS, JavaScript, React"
+  },
+  {
+    "projectTitle": "Knowledge Cafe",
+    "projectDetails": "This is like a online cafe here you will get to read latest blogs and you can also bookmark the blog so that you can read the blog later when you have free time.",
+    "projectImage": "https://i.ibb.co/C80LBMQ/symphonious-elf-2b03bb-netlify-app.png",
+    "liveSite": "https://symphonious-elf-2b03bb.netlify.app/",
+    "clientCode": "https://github.com/Ornob121/knowledge-cafe",
+    "serverCode": "",
+    "technologies": "HTML, CSS, JavaScript, React"
+  },
+  {
+    "projectTitle": "Legal House",
+    "projectDetails": "This is a single page website where you will find all of you legal needs. If you have any trouble we will help legally.",
+    "projectImage": "https://i.ibb.co/Fh8RTjF/comfy-cupcake-aada5a-netlify-app.png",
+    "liveSite": "https://comfy-cupcake-aada5a.netlify.app/",
+    "clientCode": "https://github.com/Ornob121/legal-house",
+    "serverCode": "",
+    "technologies": "HTML, CSS"
+  }
+]
